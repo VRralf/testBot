@@ -5,13 +5,13 @@ const {
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("ping")
-    .setDescription("Te respondere Pong!!"),
+    .setName("tumama")
+    .setDescription("Te putea!!"),
   /**
    *
    * @param {ChatInputCommandInteraction} interaction
    */
   execute(interaction) {
-    interaction.reply({ content: "Pong!!", ephemeral: true });
+    interaction.reply({ content: "La tuya por si a caso xD"});
   },
 };
